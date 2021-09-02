@@ -1,5 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import learnSymbol from "./data.js";
+import Matrix from "./Matrix.js";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <Matrix values={learnSymbol} />,
+  document.getElementById("root")
+);
